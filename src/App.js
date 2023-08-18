@@ -12,8 +12,8 @@ function App() {
       </Theme>
       <Content>
         <Routes>
-          <Route exact path='/' component={LandingPage} />
-          <Route path='/repos' component={RepoPage} />
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/repos' element={<RepoPage />} />
         </Routes>
       </Content>
     </BrowserRouter>
